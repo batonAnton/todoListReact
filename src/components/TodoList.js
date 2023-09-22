@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import TodoItem from './TodoItem';
 import './TodoList.css';
 
+
 const TodoList = () => {
   const [inputText, setInputText] = useState('');
   const [todos, setTodos] = useState([]);
@@ -66,6 +67,7 @@ const TodoList = () => {
 
   return (
     <div className="container">
+      
       <h2>Список завдань:</h2>
       <div className="input-container">
         <input

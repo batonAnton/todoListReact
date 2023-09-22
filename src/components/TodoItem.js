@@ -40,6 +40,7 @@ const TodoItem = ({ text, completed, onToggle, onDelete,onEdit }) => {
     </div>  
       )}
     </li>
+    
   );
 };
 
